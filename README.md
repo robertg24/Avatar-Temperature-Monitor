@@ -22,7 +22,7 @@ This project incorporates a temperature sensor (thermistor) with various physica
 - 🚀 **MQTT Communication:** Enables seamless communication between the computer and Adafruit dashboard, ensuring accurate data transmission.
 
 ## How It Works
-
+![image](https://github.com/robertg24/Temperature-Box/assets/149026170/1ea05575-c70d-43a0-846f-4620c1be8187)
 
 ## Demo
 
