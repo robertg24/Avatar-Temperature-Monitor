@@ -42,7 +42,7 @@ The temperature is then displayed on the I2C display depending on the color read
 
 ## Demo
                                           
-CLICK
+CLICK ⬇️
 
 [![Video Thumbnail](https://i.ytimg.com/vi/CltZgjiF694/hqdefault.jpg)](https://www.youtube.com/watch?v=CltZgjiF694)
 
