@@ -14,9 +14,9 @@ I2C_NUM_COLS = 20
 i2c = I2C(0, sda=machine.Pin(0), scl=machine.Pin(1), freq=400000)
 lcd = I2cLcd(i2c, I2C_ADDR, I2C_NUM_ROWS, I2C_NUM_COLS)  
 
-url = 'https://api.airtable.com/v0/appYeUgfb8jmRj2e3/Color/recm1dIHIh4aGXpMg'
+url = ''
 
-API_KEY = 'patUcpfUnrB6O4x7O.b077a05d173463200570b1d41b0637e960b21178ea145be4bcc250d41ca270a6'
+API_KEY = ''
 
 headers = {
     'Authorization': f'Bearer {API_KEY}'
@@ -25,7 +25,7 @@ headers = {
 # Fill in Adafruit IO Authentication and Feed MQTT Topic details
 mqtt_host = "io.adafruit.com"
 mqtt_username = "robertg24"  # Adafruit IO username
-mqtt_password = "aio_rZIc63sjXU3MVr49isxhZV2WYWgU"  # Adafruit IO Key
+mqtt_password = ""  # Adafruit IO Key
 mqtt_publish_topic1 = "robertg24/feeds/temperature-f"
 mqtt_publish_topic2 = "robertg24/feeds/temperature-c"
 mqtt_publish_color = "robertg24/feeds/color"
