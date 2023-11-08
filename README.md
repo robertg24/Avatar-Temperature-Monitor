@@ -31,13 +31,19 @@ T = \left(\frac{1}{A + B\ln(R) + C(\ln(R))^3}\right)^{-1}
 $$
 
 Where:
-T is the temperature in Kelvin (K).
-R is the resistance of the thermistor in ohms.
-A, B, and N are the B-parameters specific to the thermistor.
+- T is the temperature in Kelvin (K).
+- R is the resistance of the thermistor in ohms.
+- A, B, and N are the B-parameters specific to the thermistor.
+
+-The temperature is then displayed on the I2C display depending on the color read from Airtable. However, before we continue let's talk about how the color gets to Airtable.
+-Camera.py runs on a computer. An image is snapped and is processed. The processing determines the dominant color between red and green. After the script determines which
+-color is dominant it sends that color to Airtable via requests. Once the color has been updated main.py on the Pico reads that color. In this case, if the color is green
+- then the temperature will read in Celsius and in Fahrenheit if the color is red. Meanwhile, the temperature readings and the dominant color are sent to the Adafruit
+- Dashboard every 5 seconds. 
 
 ## Demo
 
-Include a GIF or screenshot showcasing the project in action. Demonstrate the physical outputs, temperature adjustments, and real-time dashboard updates.
+
 
 ![Demo](url_to_your_demo_gif_or_screenshot)
 
