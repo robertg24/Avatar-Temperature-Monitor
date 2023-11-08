@@ -42,7 +42,7 @@ The temperature is then displayed on the I2C display depending on the color read
 
 ## Demo
 
-[![Video Thumbnail](https://yt3.ggpht.com/yti/ADpuP3PrvQ9AHiXW1ZGS1bW1OozhYb_wcMopa6M6XV-wMQ=s88-c-k-c0x00ffffff-no-rj)](https://www.youtube.com/watch?v=CltZgjiF694)
+[![Video Thumbnail](:"https://i.ytimg.com/vi/CltZgjiF694/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG\u0026rs=AOn4CLAjWGhhxU3ub2hXYg_zY3C643KVR)](https://www.youtube.com/watch?v=CltZgjiF694)
 
 ## Resources
 [Thermistor](https://www.thinksrs.com/downloads/pdfs/applicationnotes/LDC%20Note%204%20NTC%20Calculator.pdf)
