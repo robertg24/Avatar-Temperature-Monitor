@@ -44,5 +44,9 @@ The temperature is then displayed on the I2C display depending on the color read
 ![Demo](url_to_your_demo_gif_or_screenshot)
 
 ## Resources
-[Link Text](extension://bfdogplmndidlpjfhoijckpakkdjkkil/pdf/viewer.html?file=https%3A%2F%2Fwww.thinksrs.com%2Fdownloads%2Fpdfs%2Fapplicationnotes%2FLDC%2520Note%25204%2520NTC%2520Calculator.pdf)
+[Thermistor](https://www.thinksrs.com/downloads/pdfs/applicationnotes/LDC%20Note%204%20NTC%20Calculator.pdf)
+[Thermistor](https://www.youtube.com/watch?v=aUPvASe8D-w&t=1987s&pp=ygURdGhlcm1pc3RvciBweXRob24%3D)
+[I2C Screen](https://www.youtube.com/watch?v=bXLgxEcT1QU)
+[Airtable](https://www.youtube.com/watch?v=_GscWfr7RXU)
+[AdaFruit Dashboard](https://www.youtube.com/watch?v=ybCMXqsQyDw&t=352s)
 
