@@ -2,6 +2,8 @@
 
 This project incorporates a temperature sensor (thermistor) with various physical outputs, integrates an I2C device, communicates with an Adafruit dashboard using MQTT, and even adjusts the temperature unit based on the color detected by a computer camera.
 
+
+
 ## Table of Contents
 
 - [Features](#features)
@@ -41,7 +43,7 @@ The temperature is then displayed on the I2C display depending on the color read
 
 
 
-![Demo](url_to_your_demo_gif_or_screenshot)
+![Demo](https://youtu.be/CltZgjiF694)
 
 ## Resources
 [Thermistor](https://www.thinksrs.com/downloads/pdfs/applicationnotes/LDC%20Note%204%20NTC%20Calculator.pdf)
