@@ -7,10 +7,8 @@ This project incorporates a temperature sensor (thermistor) with various physica
 - [Features](#features)
 - [How It Works](#howitworks)
 - [Demo](#demo)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Resources](#resources)
+  
 
 ## Features
 
@@ -24,7 +22,18 @@ This project incorporates a temperature sensor (thermistor) with various physica
 ## How It Works
 <img width="593" alt="image" src="https://github.com/robertg24/Temperature-Box/assets/149026170/d5fec662-2bf9-4d9a-8d8a-3ef9603aa853">
 
+A thermistor is an element with an electrical resistance that changes in response to temperature. The resistance-temperature relationship of a thermistor can be described using the Steinhart-Hart equation for NTC thermistors or the B-parameter equation for PTC thermistors. These equations allow you to calculate the temperature based on the measured resistance of the thermistor.
 
+For NTC thermistors, the Steinhart-Hart equation is commonly used:
+
+$$
+T = \left(\frac{1}{A + B\ln(R) + C(\ln(R))^3}\right)^{-1}
+$$
+
+Where:
+T is the temperature in Kelvin (K).
+R is the resistance of the thermistor in ohms.
+A, B, and N are the B-parameters specific to the thermistor.
 
 ## Demo
 
@@ -32,12 +41,6 @@ Include a GIF or screenshot showcasing the project in action. Demonstrate the ph
 
 ![Demo](url_to_your_demo_gif_or_screenshot)
 
-## Installation
+## Resources
+[Link Text](extension://bfdogplmndidlpjfhoijckpakkdjkkil/pdf/viewer.html?file=https%3A%2F%2Fwww.thinksrs.com%2Fdownloads%2Fpdfs%2Fapplicationnotes%2FLDC%2520Note%25204%2520NTC%2520Calculator.pdf)
 
-Provide detailed steps on how to install the project. Include prerequisites, component setup, and any required configurations or API registrations.
-
-```bash
-# Example installation commands
-git clone https://github.com/your_username/crazy-temperature-monitor.git
-cd crazy-temperature-monitor
-pip install -r requirements.txt
