@@ -5,6 +5,7 @@ This project incorporates a temperature sensor (thermistor) with various physica
 ## Table of Contents
 
 - [Features](#features)
+- [How It Works](#howitworks)
 - [Demo](#demo)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -19,6 +20,9 @@ This project incorporates a temperature sensor (thermistor) with various physica
 - 🎨 **Color-Based Unit Conversion:** Automatically switches temperature unit (Fahrenheit to Celsius and vice versa) based on the color detected by the computer camera.
 - 📝 **Airtable Integration:** Reads Airtable entries using REST API, stores color information, and communicates with the Raspberry Pi Pico and computer.
 - 🚀 **MQTT Communication:** Enables seamless communication between the computer and Adafruit dashboard, ensuring accurate data transmission.
+
+## How It Works
+
 
 ## Demo
 
