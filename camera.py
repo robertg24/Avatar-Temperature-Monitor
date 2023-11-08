@@ -27,10 +27,10 @@ green = [0, 255, 0]  # Green color in BGR
 
 cap = cv2.VideoCapture(0)
 
-url = 'https://api.airtable.com/v0/appYeUgfb8jmRj2e3/Color/recm1dIHIh4aGXpMg'
+url = ''
 
 # Airtable API Key
-API_KEY = 'patUcpfUnrB6O4x7O.b077a05d173463200570b1d41b0637e960b21178ea145be4bcc250d41ca270a6'
+API_KEY = ''
 
 # Headers for the request
 headers = {
