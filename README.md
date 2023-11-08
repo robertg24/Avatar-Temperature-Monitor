@@ -2,6 +2,7 @@
 
 This project incorporates a temperature sensor (thermistor) with various physical outputs, integrates an I2C device, communicates with an Adafruit dashboard using MQTT, and even adjusts the temperature unit based on the color detected by a computer camera.
 
+[Image](box1.jpg)
 
 
 ## Table of Contents
