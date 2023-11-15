@@ -25,14 +25,14 @@ This project incorporates a temperature sensor (thermistor) with various physica
 ## How It Works
 ![Alt Text](thermistor.png)
 
-A thermistor is an element with an electrical resistance that changes in response to temperature. The resistance-temperature relationship of a thermistor can be described using the Steinhart-Hart equation for NTC thermistors or the B-parameter equation for PTC thermistors. These equations allow you to calculate the temperature based on the measured resistance of the thermistor.
+A thermistor is an element with an electrical resistance that changes in response to temperature. Thermistors have the advantage of a very high sensitivity to temperature changes, but the disadvantage of an aggressively nonlinear characteristic. Here is a characteristic curve showing the resistance of a typical negative temperature coefficient thermistor device over a temperature range from 0 to 100 degrees C.
+
+![image](https://github.com/robertg24/Avatar-Temperature-Monitor/assets/149026170/1421dc70-c8d7-44d6-869c-f5acae8a7df6)
 
 
-Thermistors have the advantage of a very high sensitivity to temperature changes, but the disadvantage of an aggressively nonlinear characteristic. Here is a characteristic curve showing the resistance of a typical negative temperature coefficient thermistor device over a temperature range from 0 to 100 degrees C.
+As seen from figure 1, the value changes from over 15k ohms to under 100 ohms. The change is most rapid at low temperatures, giving great resolution for determining the corresponding temperature values there. At the other end of the range, resistance levels change relatively less with temperature and measurement resolution is relatively poor. The resistance measurement of the thermistor is not normalized, so the measured value of Rt in ohms is used. Manufacturers can provide typical values of the ka, kb, and kc coefficients, or you can calibrate these values for better accuracy. 
 
-<img width="457" alt="image" src="https://github.com/robertg24/Avatar-Temperature-Monitor/assets/149026170/0c3fec3b-dbb4-422b-9b3b-fb0d1686a91f">
 
-As you can see, the value changes from over 15k ohms to under 100 ohms. The change is most rapid at low temperatures, giving great resolution for determining the corresponding temperature values there. At the other end of the range, resistance levels change relatively less with temperature and measurement resolution is relatively poor.
 For NTC thermistors, the Steinhart-Hart equation is commonly used:
 
 $$
