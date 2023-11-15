@@ -23,7 +23,7 @@ This project incorporates a temperature sensor (thermistor) with various physica
 - 🚀 **MQTT Communication:** Enables seamless communication between the computer and Adafruit dashboard, ensuring accurate data transmission.
 
 ## How It Works
-![Alt Text](thermistor.jpg)
+![Alt Text](thermistor.png)
 
 A thermistor is an element with an electrical resistance that changes in response to temperature. The resistance-temperature relationship of a thermistor can be described using the Steinhart-Hart equation for NTC thermistors or the B-parameter equation for PTC thermistors. These equations allow you to calculate the temperature based on the measured resistance of the thermistor.
 
