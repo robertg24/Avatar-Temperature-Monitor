@@ -27,6 +27,12 @@ This project incorporates a temperature sensor (thermistor) with various physica
 
 A thermistor is an element with an electrical resistance that changes in response to temperature. The resistance-temperature relationship of a thermistor can be described using the Steinhart-Hart equation for NTC thermistors or the B-parameter equation for PTC thermistors. These equations allow you to calculate the temperature based on the measured resistance of the thermistor.
 
+
+Thermistors have the advantage of a very high sensitivity to temperature changes, but the disadvantage of an aggressively nonlinear characteristic. Here is a characteristic curve showing the resistance of a typical negative temperature coefficient thermistor device over a temperature range from 0 to 100 degrees C.
+
+<img width="457" alt="image" src="https://github.com/robertg24/Avatar-Temperature-Monitor/assets/149026170/0c3fec3b-dbb4-422b-9b3b-fb0d1686a91f">
+
+As you can see, the value changes from over 15k ohms to under 100 ohms. The change is most rapid at low temperatures, giving great resolution for determining the corresponding temperature values there. At the other end of the range, resistance levels change relatively less with temperature and measurement resolution is relatively poor.
 For NTC thermistors, the Steinhart-Hart equation is commonly used:
 
 $$
@@ -37,6 +43,9 @@ Where:
 - T is the temperature in Kelvin (K).
 - R is the resistance of the thermistor in ohms.
 - A, B, and N are the B-parameters specific to the thermistor.
+
+
+Curve forms are available that describe the nonlinear shape of the thermistor characteristic quite well. The most commonly used form is the Steinhart-Hart Equation. The resistance measurement of the thermistor is not normalized, so just use the measured value of Rt in ohms. Manufacturers can provide typical values of the ka, kb, and kc coefficients, or you can calibrate these values for better accuracy.
 
 The temperature is then displayed on the I2C display depending on the color read from Airtable. However, before we continue let's talk about how the color gets to Airtable. Camera.py runs on a computer. An image is snapped and is processed. The processing determines the dominant color between red and green. After the script determines which color is dominant it sends that color to Airtable via requests. Once the color has been updated main.py on the Pico reads that color. In this case, if the color is green then the temperature will read in Celsius and in Fahrenheit if the color is red. Meanwhile, the temperature readings and the dominant color are sent to the Adafruit Dashboard every 5 seconds. 
 
